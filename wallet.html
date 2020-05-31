@@ -55,55 +55,121 @@
 
 
 
-<div class="container">
+<div class="container-fluid">
 
     <div class="row">
-        <div class="col-md-3"></div>
-        <div class="col-md-6" style="padding: 20px;">
+        <div class="col-md-3 siddy">
+            <div class="">
+
+                <div class="text-center">
+                    <img src="asset/img/userface.png" width="105" height="105"><br><br>
+                    <h5><strong>Dangote Group</strong> </h5>
+
+                </div>
+
+                <hr>
+
+                <ul style="list-style: none;" class="sidebar-nav">
+
+
+                    <li class="" style="margin-left: -10px;">
+                        <a href="index.html"> <i class="fa fa-tachometer-alt"></i> <span style="margin-left: -20px;">Dashboard</span></a>
+                    </li>
+                    <li class="">
+                        <a href="profile.html"> <img src="asset/img/icon1.png"> Profile</a>
+
+                    </li>
+                    <li>
+                        <a href="sales.html"><img src="asset/img/ordericon.png"> Order Request</a>
+                    </li>
+                    <li>
+                        <a href="notification.html"><img src="asset/img/icon2.png"> Notifications</a>
+                    </li>
+                    <li>
+                        <a href="sales.html"><img src="asset/img/salesicon.png"> Sales</a>
+                    </li>
+                    <li>
+                        <a href="messages.html"><img src="asset/img/icon3.png"> Messages</a>
+                    </li>
+                    <li>
+                        <a href="bloomzonsales.html"><img src="asset/img/producticon.png"> Company Products</a>
+                    </li>
+                    <li>
+                        <img src="asset/img/adverticon.png"> Adverts <button type="button" style="background-color: #02499B;" class="btn" data-toggle="collapse" data-target="#sub"><i class="text-white fa fa-caret-down float-right"></i></button>
+                        <div id="sub" class="collapse">
+                            <a class="dropitem" style="font-size: 12px; padding: 0px;"  href="allads.html">All Ads</a>
+                            <a class="dropitem" style="font-size: 12px; padding: 0px;"  href="postnewads.html">Post New Ads</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="verification.html"><img src="asset/img/verifyicon.png"> Verification</a>
+                    </li>
+                    <li>
+                        <a href="subscription.html"><img src="asset/img/subicon.png"> Subscription</a>
+                    </li>
+                    <li>
+                        <a href="contact-admin.html"><img src="asset/img/icon7.png" alt=""> Contact Admin</a>
+                    </li>
+
+                    <li>
+                        <a href="wallet.html"><img src="asset/img/icon6.png" alt=""> Wallet</a>
+                    </li>
+
+                    <li>
+                        <a href="settings.html"><img src="asset/img/settingsicon.png" alt=""> Settings</a>
+                    </li>
+
+
+
+
+                    <li>
+                        <a href="#">Logout</a>
+                    </li>
+                </ul>
+            </div>
+
+
+        </div>
+        <div class="col-md-9" style="padding: 20px;">
             <div class="card" style="background-color: #707070; border-radius: 20px; padding: 40px;">
                 <div class="row">
                     <div class="col-md-2"></div>
                     <div class="col-md-4">
-                        <img src="asset/img/percent.png">
-                        <p class="text-white" style="margin-left: 15px; margin-top: 10px;">Total Sales</p>
-                    </div>
-                    <div class="col-md-2"></div>
-                    <div class="col-md-4">
-                        <br>
-                        <img src="asset/img/chart.png">
+                        <img src="asset/img/percent1.png">
                         <br><br>
-                        <p class="text-white">Active Sales</p>
+                        <p class="text-white" style="">Total Orders</p>
                     </div>
-                </div><br><br>
+                    <div class="col-md-1"></div>
+                    <div class="col-md-4">
+                      <a href="wallethistory.html">
+                          <img src="asset/img/percent2.png">
+                          <br><br>
+                          <p class="text-white">Available Cash</p>
+                      </a>
+                    </div>
+                    <div class="col-md-1"></div>
+                </div><br>
+                <br>
                 <div class="row">
                     <div class="col-md-2"></div>
                     <div class="col-md-4">
-                        <img src="asset/img/stage.png">
+                        <img src="asset/img/percent3.png">
                         <br><br>
-                        <p class="text-white">Stage</p>
+                        <p class="text-white">Cleared Balance</p>
                     </div>
-                    <div class="col-md-2"></div>
+                    <div class="col-md-1"></div>
                     <div class="col-md-4">
-                        <img src="asset/img/sigma.png">
-                        <p class="text-white">N2,500</p>
-                        <p class="text-white">Total Earned</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-4"></div>
-                    <div class="col-md-4">
-                        <img style="margin-left: 25px;" src="asset/img/net.png">
+                        <img src="asset/img/percent4.png">
                         <br><br>
-                        <p style="margin-left: 25px;" class="text-white">N1,500</p>
-                        <p style="margin-left: 15px;" class="text-white">Net Balance</p>
+                        <p class="text-white">Total Sales</p>
                     </div>
-                    <div class="col-md-4"></div>
+                    <div class="col-md-1"></div>
                 </div>
             </div>
 
             <br><br>
             <h5 class="text-white text-center">Request Cash-out</h5>
-            <form>
+            <form style="width: 400px; margin-left: 300px;">
                 <div class="form-group">
                     <label class="text-white" for="account-number">Amount</label>
                     <input  id="account-number" class="form-control" type="text" placeholder="Enter Amount">
@@ -115,14 +181,16 @@
                 </div>
                 <br>
 
+                <div class="text-center">
 
-                <button class="btn" style="border: 1px solid white; margin-left: 200px; width: 150px; background-color:#02499B; border-radius: 20px; color: white;">SEND</button>
+                    <button class="btn" style="border: 1px solid white; width: 150px; background-color:#02499B; border-radius: 20px; color: white;">SUBMIT</button>
+
+                </div>
 
             </form>
             <br><br>
 
         </div>
-        <div class="col-md-3"></div>
     </div>
 
 
